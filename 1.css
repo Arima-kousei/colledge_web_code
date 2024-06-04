@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.tv{
+    width: 1000px;
+    height: 562.5px;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+}
+.loop{
+    width: 4000px;
+    height: 562.5px;
+    justify-content: flex-start;
+    animation: loop 10s infinite;
+}
+div{
+    width: 1000px;
+    height: 562.5px;
+}
+img{
+    width: 1000px;
+    height: 562.5px;
+    float: left;
+}
+@keyframes loop{
+    0%{transform: translateX(0);}
+    25%{transform: translateX(0);}
+    25.1%{transform: translateX(-1000px);}
+    50%{transform: translateX(-1000px);}
+    50.1%{transform: translateX(-2000px);}
+    75%{transform: translateX(-2000px);}
+    75.1%{transform: translateX(-3000px);}
+    100%{transform: translateX(-3000px);}
+}
