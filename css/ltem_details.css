@@ -1,0 +1,152 @@
+.ltem{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1275px;
+    height: 32px;
+}
+.ltem h2{
+    margin: 0;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 60px;
+    color: #424242;
+    float: left;
+}
+.ltem_left{
+    font-size: 12px;
+    margin: 27px 0 0;
+    float: left;
+}
+.ltem_left_1{
+    margin: 0 10px;
+}
+.ltem_right{
+    margin: 17px;
+    float: right;
+}
+
+
+.detail{
+    position: absolute;
+    top: 60px;
+    justify-content: center;
+    align-items: center;
+    width: 1275px;
+    padding: 32px 0 12px;
+    display: flex;
+    /* border: 2px solid black; */
+}
+.detail_left{
+    width: 606px;
+    overflow: hidden;
+}
+.detail_left_0{
+    float: left;
+    display: flex;
+}
+.detail_left_0 img{
+    width: 606px;
+}
+.detail_left_1{
+    width: 606px;
+    animation: spdh 15s ease infinite;
+    float: left;
+}
+@keyframes spdh{
+    0%,16.666%{transform:  translateX(0px);}
+    16.67%,33.333%{transform: translateX(-606px);}
+    33.334%,50%{transform: translateX(-1212px);}
+    50.001%,66.666%{transform: translateX(-1818px);}
+    66.667%,83.333%{transform: translateX(-2424px);}
+    83.334%,100%{transform: translateX(-3030px);}
+}
+
+
+.detail_right{
+    width: 669px;
+}
+.detail_right .detail_right_1{
+    padding: 62px 0 0;
+}
+.detail_right .detail_right_2{
+    padding: 14px 0 0;
+}
+.detail_right .detail_right_3{
+    color: red;
+    padding: 12px 0 10px;
+}
+.line{
+    margin-top: 12px;
+    border-bottom: 2px solid #e0e0e0;
+}
+.activity{
+    margin: 25px 0px;
+}
+.activity_tag{
+    width: 60px;
+    text-align: center;
+    background-color: #ff6700;
+    font-size: 14px;
+    color: white;
+    float: left;
+}
+.activity_1{
+    padding: 0 75px;
+    font-size: 14px;
+}
+
+.address{
+    width: 350px;
+    height: 29px;
+}
+.tj
+{
+    height: 30px;
+}
+
+.choose{
+    width: 669px;
+    height: 130px;
+}
+.choose ul{
+    width: 669px;
+    height: 130px;
+}
+.choose ul li{ 
+    list-style: none;
+    float: left;
+    width: 325px;
+    height: 42px;
+    text-align: center;
+    font-size: 16px;
+    margin: 5px 3px;
+    line-height: 40px;
+    border: 1.5px solid gray;
+}
+.buy{
+    margin: 10px 5px;
+    width: 325px;
+    height: 42px;
+    text-align: center;
+    line-height: 38px;
+    background-color: #ff6700;
+    float: left;
+}
+.love{
+    margin: 10px 5px;
+    width: 141px;
+    height: 42px;
+    text-align: center;
+    line-height: 38px;
+    background-color: #b0b0b0;
+    float: left;
+}
+.footer{
+    position: absolute;
+    top: 800px;
+}
+.foot{
+    position: absolute;
+    top: 1140px;
+}
